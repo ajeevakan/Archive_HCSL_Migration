@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <recordTypes>
+        <fullName>Consumer_Marketing</fullName>
+        <active>true</active>
+        <label>Consumer Marketing</label>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>Appointment Initial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closing Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Call In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Call Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Call In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Call Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Email In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Email Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Mail In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Walk In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Walk In Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAIL OUT-COMMUNITY NEWSLETTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail Out - Personal Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Move In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Move Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Post-Deposit Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resident Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour - Initial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waitlist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walk-In Tour</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Community__c</picklist>
+            <values>
+                <fullName>ALB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BAK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lutheran Home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripps Ranch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Category__c</picklist>
+            <values>
+                <fullName>Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diagnosis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exercise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vaccination</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Conditions_Status__c</picklist>
+            <values>
+                <fullName>Asymptomatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asymptomatic - Declined to Participate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cured</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Evaluated - No Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Symptomatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Symptomatic - Declined to Participate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Contract_Tracing_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incoming</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Gender__c</picklist>
+            <values>
+                <fullName>Decline to Specify</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Female</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Male</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Monitored_at_Home__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__TaskType__c</picklist>
+            <values>
+                <fullName>Administrative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uncategorized</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Testing_Status__c</picklist>
+            <values>
+                <fullName>Negative Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Results Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing Recommended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Re_Inquiry_Source__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Result_Code__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow Up Email Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow Up Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RSVP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rescheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled Appointment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Media MSG Sent or Comment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Take off call list</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Outreach_Marketing</fullName>
+        <active>true</active>
+        <label>Outreach Marketing</label>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>Appointment Initial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closing Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deposit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Call In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Call Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EBD Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Call In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Call Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Email In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Email Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Mail In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Walk In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initial Walk In Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAIL OUT-COMMUNITY NEWSLETTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail Out - Personal Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Move In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Move Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Post-Deposit Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resident Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour - Initial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waitlist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Walk-In Tour</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Community__c</picklist>
+            <values>
+                <fullName>ALB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BAK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lutheran Home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripps Ranch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Category__c</picklist>
+            <values>
+                <fullName>Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diagnosis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exercise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vaccination</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Conditions_Status__c</picklist>
+            <values>
+                <fullName>Asymptomatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asymptomatic - Declined to Participate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cured</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Evaluated - No Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Symptomatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Symptomatic - Declined to Participate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Contract_Tracing_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incoming</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Gender__c</picklist>
+            <values>
+                <fullName>Decline to Specify</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Female</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Male</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Monitored_at_Home__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__TaskType__c</picklist>
+            <values>
+                <fullName>Administrative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uncategorized</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HealthCloudGA__Testing_Status__c</picklist>
+            <values>
+                <fullName>Negative Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Results Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing Recommended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Re_Inquiry_Source__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Result_Code__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow Up Email Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow Up Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RSVP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rescheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled Appointment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Media MSG Sent or Comment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Take off call list</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>Campaign_requires_contact</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISBLANK(Lead_Source_Campaign__c )) &amp;&amp; ISBLANK( WhoId ) &amp;&amp; System__c = false &amp;&amp; NOT( $Profile.Name = &apos;System Administrator&apos;)</errorConditionFormula>
+        <errorDisplayField>WhoId</errorDisplayField>
+        <errorMessage>You have assigned this Activity to a Campaign. The activity must also be assigned to a specific Contact.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Must_be_Related_to_an_Object</fullName>
+        <active>true</active>
+        <errorConditionFormula>( ISBLANK( WhoId ) &amp;&amp; ISBLANK(WhatId)) &amp;&amp; NOT( $Profile.Name = &apos;System Administrator&apos;)</errorConditionFormula>
+        <errorMessage>You must specify a relationship in either the Related To or Name field of the Task.</errorMessage>
+    </validationRules>
+</CustomObject>
