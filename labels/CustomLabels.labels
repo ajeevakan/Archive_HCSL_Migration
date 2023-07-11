@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>OppStagesMoveInNotAllowed</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OppStagesMoveInNotAllowed</shortDescription>
+        <value>[&quot;Closed-Lost Lead&quot;,&quot;Cancelled&quot;,&quot;Move In&quot;,&quot;Move Out&quot;,&quot;Transfer In&quot;,&quot;Transfer Out&quot;,&quot;No Admit&quot;,&quot;Waitlist&quot;]</value>
+    </labels>
+</CustomLabels>
